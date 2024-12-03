@@ -1,0 +1,680 @@
+
+@font-face {
+    font-family: comic;
+    src: url(font/SingleDay-Regular.ttf);
+}
+
+
+.hdng-zoom{
+
+    animation: zooom 2s ease infinite;
+
+}
+
+.upndwn{
+
+    animation: updwn 2s ease-in-out infinite;
+
+}
+
+
+.fadeinn{
+
+    animation: fadeIn 2s ease-in-out infinite;
+
+}
+
+.jump{
+
+    animation: bounce2 2s ease-in-out infinite;
+
+}
+
+.spining2{
+
+    animation: spining 4s ease-in-out infinite;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    transition: all 0.6s;
+
+}
+
+body {
+    font-family: comic;
+    background: url(images/bdy\ bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+
+main {
+
+    position: relative;
+
+}
+
+h2 {
+
+
+    font-size: 4vw;
+    text-transform: uppercase;
+
+}
+
+h3{
+
+    font-size: 2vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+
+}
+
+h4 {
+
+    font-size: 1.5vw;
+    color: red;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+
+p {
+
+    font-size: 2vw;
+    color: #fff8fba4;
+    font-weight: 100;
+
+
+}
+
+
+
+.btns:hover {
+    scale: 1.1;
+    transition: all 0.6s;
+    cursor: pointer;
+
+}
+
+
+/* ............................................HEADER....................... */
+
+
+
+
+header {
+    position: relative;
+    width: 100vw;
+    background: transparent;
+    padding: 2vw 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.hder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    padding: 0 5%;
+}
+
+.logo img {
+    width: 20vw;
+}
+
+.logo img:hover {
+    scale: 1.1;
+    transition: all 0.6s;
+}
+
+.h-nav {
+    display: flex;
+    
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10vw;
+}
+
+.menu li {
+    margin-right: 20%;
+    text-wrap: nowrap;
+}
+
+.menu a {
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    font-size: 2vw;
+}
+
+.menu a:hover {
+    scale: 1.1;
+    transform: translateY(-10%);
+    transition: all 0.6s;
+    color: red;
+}
+
+.h-button {
+
+    width: 14vw;
+    padding: 3% 0%;
+
+}
+
+
+
+
+/* ............................................SECTION 0....................... */
+
+
+.sect0 {
+
+    background: url(images/sect0bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    /* height: 67vw; */
+    position: relative;
+
+}
+
+.sect0-hdng {
+
+    display: flex;
+    width: 70vw;
+    text-align: center;
+    margin: 1vw auto 15vw auto;
+    position: relative;
+
+}
+
+
+.sect0-d1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto 0% auto;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+
+}
+
+
+.sect0-d1 h4 {
+
+
+    padding: 1%;
+    margin: 7vw 0 0 0;
+    font-weight: 500;
+    width: 80%;
+    /* background: rgba(108, 132, 154, 0.221); */
+
+
+}
+
+
+.sect0-d1-d1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw 0 4vw 0;
+
+    gap: 2vw;
+
+}
+
+.sect0-d1-d1 img {
+
+    width: 20vw;
+
+}
+
+
+.sect0-d1-d1 img:hover {
+
+    scale: 1.1;
+    /* box-shadow: 0 0 10px 1px rgba(255, 0, 0, 0.5); */
+
+}
+
+.imgg22{
+
+    width: 100vw;
+    margin: -3% 0 0 0;
+    position: relative;
+    z-index: 4;
+
+}
+
+/* ............................................SECTION 1....................... */
+
+.sect1{
+
+    background: #0e0f13;
+
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;    
+
+justify-content: center;
+align-items: center;
+gap: 4vw;
+
+width: 100vw;
+
+margin: -13% 0 0 0;
+padding: 10%;
+
+position: relative;
+z-index: 5;
+
+
+}
+
+.abt-hdng{
+
+    width: 30vw;
+
+}
+
+.sect1 p{
+
+    width: 35vw;
+    text-align: center;
+    /* z-index: 9;
+    position: relative; */
+
+}
+
+.sect1 a img{
+
+    width: 15vw;
+    position: relative;
+    z-index: 99;
+
+}
+
+
+/* ............................................SECTION 2....................... */
+
+
+.sect2{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    background: url(images/bg31.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+
+    height: 65vw;
+
+    margin: -6% 0 0 0;
+    padding: 10% 0 0% 0;
+
+    position: relative;
+
+
+}
+
+.sect2 div{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 7vw;
+    width: 100vw;
+    padding: 0 0 0 5%;
+
+
+}
+
+.sect2 div img{
+
+    width: 30vw;
+
+}
+
+
+.imgg33{
+
+    width: 70vw;
+    display: flex;
+    margin:-15%  auto 0 auto ;
+    position: relative;
+    z-index: 8;
+
+}
+
+
+
+/* ............................................SECTION TEXT....................... */
+
+
+.t-slider1 {
+    border-top: 0.3vw solid #000000;
+    border-bottom: 0.3vw solid #000000;
+    transform: rotate(5deg);
+    margin: 0 0 -5% 0;
+
+}
+
+.t-slider2 {
+    border-top: 0.3vw solid #000000;
+    border-bottom: 0.3vw solid #000000;
+    transform: rotate(-5deg);
+
+
+}
+
+.text-container {
+    overflow-x: hidden;
+    /* Hide overflow to create a sliding effect */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    width: 100%;
+    /* Set container width */
+    border: solid black 1px 0 1px 0;
+}
+
+/* Animated text */
+.animated-text1 {
+    display: inline-block;
+    font-size: 2vw;
+    color: white;
+    animation: slide-left 19s linear infinite;
+    padding: 1vw;
+    background-color: blue;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+/* Animated text */
+.animated-text2 {
+    display: inline-block;
+    font-size: 2vw;
+    color: white;
+    animation: slide-right 19s linear infinite;
+    padding: 1vw;
+    background-color: blue;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+/* ............................................SECTION 3....................... */
+
+
+.sect3{
+
+    background: url(images/sect3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+
+    padding: 10% 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5%;
+
+    width: 100vw;
+    height: 60vw;
+
+}
+
+.join-img{
+
+    width: 30vw;
+    margin: 0 0 0 1%;
+
+}
+
+
+.sect3 p{
+
+    width: 30vw;
+    text-align: center;
+    z-index: 9;
+
+}
+
+.sect3 a img{
+
+    width: 15vw;
+    margin: 0 0 0 40%;
+
+}
+
+
+/* ............................................SECTION LAST....................... */
+
+
+.sectlast{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+
+}
+
+.sectlast img:nth-child(1){
+
+    width: 70vw;
+
+}
+
+
+.sectlast img:nth-child(2){
+
+    width: 75vw;
+
+}
+
+
+.sectlast p{
+
+    color: red;
+
+}
+
+
+/* ............................................SECTION POSITION ABSOLUTE....................... */
+
+.posabs{
+
+    position: absolute;
+
+}
+
+
+.sicn{
+
+    z-index: 5;
+    top: 8%;
+    right: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sicn img{
+
+    width: 5vw;
+
+
+}
+
+.sicn img:hover{
+
+    scale: 1.2;
+    transform: translateX(-30%);
+    opacity: 2;
+
+}
+
+
+.s0-mimg{
+
+    width: 64vw;
+    top: 3%;
+    left: 18%;
+    z-index: 3;
+
+}
+
+.s0-limg{
+
+    width: 4vw;
+    top: 0%;
+    left: 0%;
+    z-index: 3;
+
+}
+
+.s0-rimg{
+
+    width: 5vw;
+    top: 10%;
+    right: 0%;
+    z-index: 3;
+
+}
+
+.s0-scrl{
+
+    width: 2vw;
+    top: 13%;
+    left: 3%;
+    z-index: 3;
+
+}
+
+
+
+.s1-rimg{
+
+    width: 40vw;
+    top: 22.55%;
+    right: 0%;
+    z-index: 5;
+
+}
+
+.s1-limg{
+
+    width: 45vw;
+    top: 24.2%;
+    left:  0%;
+    z-index: 6;   
+
+}
+
+.lr-icn{
+
+    width: 5vw;
+    top: 86%;
+    right:  10%;
+    z-index: 6;
+
+}
+
+.ll-icn{
+
+    width: 5vw;
+    top: 86%;
+    right:  16%;
+    z-index: 6;
+
+}
+
+
+.tbox1{
+
+    top: 42.3%;
+    width: 23vw;
+    right: 20%;
+    z-index: 9;
+
+}
+
+.tbox2{
+
+    top: 46%;
+    width: 23vw;
+    right: 5%;
+    z-index: 9;
+
+}
+
+.tt1{
+
+    top: 43%;
+    width: 23vw;
+    right: 17%;
+    z-index: 9;
+
+}
+
+.tt2{
+
+    top: 46.5%;
+    width: 23vw;
+    right: 1%;
+    z-index: 9;
+
+}
